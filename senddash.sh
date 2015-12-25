@@ -1,5 +1,3 @@
-#!/bin/bash
-# check for xxx file:
 if [ -e ~/IAM_REPORT* ]
   then
     rsync -av ~/IAM_REPORT* pi@pi2:~/dashboard/
