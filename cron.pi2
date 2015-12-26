@@ -22,6 +22,6 @@
 # m h  dom mon dow   command
 #0 0 * * * sudo service transmission-daemon start
 * * * * * /home/pi/launch-dash.sh &
-* * * * * cd /home/pi/dashboard && ./acclock-cron.sh >/dev/null 2>&1
-* * * * * cd /home/pi/dashboard && ./ndt-cron.sh >/dev/null 2>&1
-* * * * * cd /home/pi/dashboard && ./notices-cron.sh >/dev/null 2>&1
+* * * * * cd /home/pi/dashboard && /home/pi/dashboard/acclock-cron.sh >/dev/null 2>&1
+* * * * * cd /home/pi/dashboard && /home/pi/dashboard/ndt-cron.sh >/dev/null 2>&1
+* * * * * cd /home/pi/dashboard && /home/pi/dashboard/notices-cron.sh >/dev/null 2>&1
