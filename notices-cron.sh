@@ -1,3 +1,4 @@
+#!/bin/bash -l
 if [ -e ./NoticesDaily* ]
 then
 	mv NoticesDaily* new-notices.csv

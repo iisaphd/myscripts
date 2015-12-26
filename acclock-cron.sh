@@ -1,3 +1,4 @@
+#!/bin/bash -l
 if [ -e ./IAM_R* ]
 then
 	mv IAM_R* acclock.csv
