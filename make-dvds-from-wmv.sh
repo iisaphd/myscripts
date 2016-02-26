@@ -1,3 +1,4 @@
+export VIDEO_FORMAT=NTSC
 for i in *.wmv
 do
 ffmpeg -i "$i" -target ntsc-dvd -aspect 16:9 -b:v 3100k -ac 2 "${i%.wmv}.mpg"
