@@ -1,7 +1,7 @@
 # myscripts
 various shell scripts
 
-This github project containse various shell scripts I have written over time to make my life easier
+This github project contains various shell scripts I have written over time to make my life easier
 
 The audio directory has files that downsample audiobooks to 32kb mono, split large files into smaller 5min long files, etc.
 The create-new-disk directory has the script to build a new hard drive from an existing one
