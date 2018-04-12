@@ -1,0 +1,1 @@
+regionset /dev/sr0
