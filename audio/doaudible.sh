@@ -40,12 +40,12 @@ done
 files=`ls -lah | wc | awk '{print $1}'` #this number is +3 higher than the actual
 num=$(echo $files - 3 | bc)
 # Since we want 10 files per directory, then figure out num/10
-directories=$(echo $num / 10 | bc)
-modresult=$(echo $num % 10 | bc)
+directories=$(echo $num / 20 | bc)
+modresult=$(echo $num % 20 | bc)
 # If mod result = 0, then the number of directories is correct, otherwise add 1 to directories
-if [ "$modresult" -ne 0 ]
+if [ "$modresult" -eq 0 ]
 then
-    directories=$(echo $directories + 1 | bc)
+    directories=$(echo $directories - 1 | bc)
 fi
 echo I have established that the number of directories is $directories
 
@@ -54,12 +54,27 @@ if [ "$directories" -lt 10 ]
 then
     # need to strip .mp3 out the value of $file and add an underscore
     bookname="${file%.mp3}_"
-    for i in `seq 1 $directories`; do mkdir $i; mv $bookname$i* $i; done
+    echo pattern to match is $bookname
+    for i in `seq 0 $directories`
+    do 
+        mkdir $i
+        mv $bookname$i* $i
+    done
 else
     # need to strip .mp3 out the value of $file
     bookname="${file%.mp3}"
-    for i in `seq 0 9`; do mkdir 0$i; mv $bookname_0$i* 0$i; done
-    for i in `seq 10 $directories`; do mkdir $i; mv $bookname_$i* $i; done
+    echo pattern to match is $bookname
+    for i in `seq 0 9`
+    do 
+        mkdir 0$i
+        #echo moving "$bookname"_0$i* to 0$i
+        mv "$bookname"_0$i* 0$i
+    done
+    for i in `seq 10 $directories`
+    do 
+        mkdir $i
+        mv "$bookname"_$i* $i
+    done
 fi
 
 # done
