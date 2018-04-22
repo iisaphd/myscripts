@@ -1,4 +1,5 @@
 #!/bin/bash
+rm index.php
 wget www.caitlain.com/index.php
 hrefs=`cat index.php | grep 'a href' | wc | awk '{print $1}'`
 status=`cat caitlain.com.status`
