@@ -11,5 +11,5 @@ then
 else
 	echo "Site attacked"
 #	echo "Site has been attacked" | email -f matthew.mclaurine@gmail.com -b -s 'Caitlain.com' -c /etc/email/email.conf -tls  matt@caitlain.com
-	ssmtp matthew.mclaurine@gmail.com < sitestatus.attacked 
+	/usr/sbin/ssmtp matthew.mclaurine@gmail.com < sitestatus.attacked 
 fi
