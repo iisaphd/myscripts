@@ -1,0 +1,57 @@
+ffmpeg -y -ss 0:00:00 -t 0:13:01 -i ShatteredLand.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  ShatteredLand-Chapter-00.mp3
+ffmpeg -y -ss 0:13:01 -t 0:14:18 -i ShatteredLand.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  ShatteredLand-Chapter-01.mp3
+ffmpeg -y -ss 0:27:19 -t 0:17:05 -i ShatteredLand.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  ShatteredLand-Chapter-02.mp3
+ffmpeg -y -ss 0:44:24 -t 0:10:39 -i ShatteredLand.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  ShatteredLand-Chapter-03.mp3
+ffmpeg -y -ss 0:55:03 -t 0:13:06 -i ShatteredLand.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  ShatteredLand-Chapter-04.mp3
+ffmpeg -y -ss 1:08:09 -t 0:05:38 -i ShatteredLand.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  ShatteredLand-Chapter-05.mp3
+ffmpeg -y -ss 1:13:47 -t 0:16:26 -i ShatteredLand.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  ShatteredLand-Chapter-06.mp3
+ffmpeg -y -ss 1:30:13 -t 0:09:52 -i ShatteredLand.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  ShatteredLand-Chapter-07.mp3
+ffmpeg -y -ss 1:40:05 -t 0:21:28 -i ShatteredLand.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  ShatteredLand-Chapter-08.mp3
+ffmpeg -y -ss 2:01:33 -t 0:08:07 -i ShatteredLand.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  ShatteredLand-Chapter-09.mp3
+ffmpeg -y -ss 2:09:40 -t 0:20:20 -i ShatteredLand.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  ShatteredLand-Chapter-10.mp3
+ffmpeg -y -ss 2:30:00 -t 0:08:17 -i ShatteredLand.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  ShatteredLand-Chapter-11.mp3
+ffmpeg -y -ss 2:38:17 -t 0:09:26 -i ShatteredLand.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  ShatteredLand-Chapter-12.mp3
+ffmpeg -y -ss 2:47:43 -t 0:10:58 -i ShatteredLand.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  ShatteredLand-Chapter-13.mp3
+ffmpeg -y -ss 2:58:41 -t 0:11:12 -i ShatteredLand.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  ShatteredLand-Chapter-14.mp3
+ffmpeg -y -ss 3:09:53 -t 0:11:41 -i ShatteredLand.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  ShatteredLand-Chapter-15.mp3
+ffmpeg -y -ss 3:21:34 -t 0:16:19 -i ShatteredLand.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  ShatteredLand-Chapter-16.mp3
+ffmpeg -y -ss 3:37:53 -t 0:11:12 -i ShatteredLand.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  ShatteredLand-Chapter-17.mp3
+ffmpeg -y -ss 3:49:05 -t 0:12:58 -i ShatteredLand.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  ShatteredLand-Chapter-18.mp3
+ffmpeg -y -ss 4:02:03 -t 0:14:57 -i ShatteredLand.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  ShatteredLand-Chapter-19.mp3
+ffmpeg -y -ss 4:17:00 -t 0:12:15 -i ShatteredLand.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  ShatteredLand-Chapter-20.mp3
+ffmpeg -y -ss 4:29:15 -t 0:08:43 -i ShatteredLand.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  ShatteredLand-Chapter-21.mp3
+ffmpeg -y -ss 4:37:58 -t 0:13:14 -i ShatteredLand.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  ShatteredLand-Chapter-22.mp3
+ffmpeg -y -ss 4:51:12 -t 0:11:10 -i ShatteredLand.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  ShatteredLand-Chapter-23.mp3
+ffmpeg -y -ss 5:02:22 -t 0:14:57 -i ShatteredLand.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  ShatteredLand-Chapter-24.mp3
+ffmpeg -y -ss 5:17:19 -t 0:13:42 -i ShatteredLand.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  ShatteredLand-Chapter-25.mp3
+ffmpeg -y -ss 5:31:01 -t 0:15:44 -i ShatteredLand.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  ShatteredLand-Chapter-26.mp3
+ffmpeg -y -ss 5:46:45 -t 0:17:52 -i ShatteredLand.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  ShatteredLand-Chapter-27.mp3
+ffmpeg -y -ss 6:04:37 -t 0:10:56 -i ShatteredLand.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  ShatteredLand-Chapter-28.mp3
+ffmpeg -y -ss 6:15:33 -t 0:19:20 -i ShatteredLand.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  ShatteredLand-Chapter-29.mp3
+ffmpeg -y -ss 6:34:53 -t 0:15:10 -i ShatteredLand.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  ShatteredLand-Chapter-30.mp3
+ffmpeg -y -ss 6:50:03 -t 0:11:47 -i ShatteredLand.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  ShatteredLand-Chapter-31.mp3
+ffmpeg -y -ss 7:01:50 -t 0:18:51 -i ShatteredLand.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  ShatteredLand-Chapter-32.mp3
+ffmpeg -y -ss 7:20:41 -t 0:17:17 -i ShatteredLand.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  ShatteredLand-Chapter-33.mp3
+ffmpeg -y -ss 7:37:58 -t 0:16:08 -i ShatteredLand.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  ShatteredLand-Chapter-34.mp3
+ffmpeg -y -ss 7:54:06 -t 0:13:51 -i ShatteredLand.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  ShatteredLand-Chapter-35.mp3
+ffmpeg -y -ss 8:07:57 -t 0:14:55 -i ShatteredLand.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  ShatteredLand-Chapter-36.mp3
+ffmpeg -y -ss 8:22:52 -t 0:21:59 -i ShatteredLand.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  ShatteredLand-Chapter-37.mp3
+ffmpeg -y -ss 8:44:51 -t 0:13:15 -i ShatteredLand.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  ShatteredLand-Chapter-38.mp3
+ffmpeg -y -ss 8:58:06 -t 0:17:29 -i ShatteredLand.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  ShatteredLand-Chapter-39.mp3
+ffmpeg -y -ss 9:15:35 -t 0:12:09 -i ShatteredLand.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  ShatteredLand-Chapter-40.mp3
+ffmpeg -y -ss 9:27:44 -t 0:17:40 -i ShatteredLand.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  ShatteredLand-Chapter-41.mp3
+ffmpeg -y -ss 9:45:24 -t 0:17:15 -i ShatteredLand.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  ShatteredLand-Chapter-42.mp3
+ffmpeg -y -ss 10:02:39 -t 0:18:39 -i ShatteredLand.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  ShatteredLand-Chapter-43.mp3
+ffmpeg -y -ss 10:21:18 -t 0:19:02 -i ShatteredLand.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  ShatteredLand-Chapter-44.mp3
+ffmpeg -y -ss 10:40:20 -t 0:16:52 -i ShatteredLand.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  ShatteredLand-Chapter-45.mp3
+ffmpeg -y -ss 10:57:12 -t 0:11:16 -i ShatteredLand.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  ShatteredLand-Chapter-46.mp3
+ffmpeg -y -ss 11:08:28 -t 0:13:34 -i ShatteredLand.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  ShatteredLand-Chapter-47.mp3
+ffmpeg -y -ss 11:22:02 -t 0:13:07 -i ShatteredLand.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  ShatteredLand-Chapter-48.mp3
+ffmpeg -y -ss 11:35:09 -t 0:20:50 -i ShatteredLand.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  ShatteredLand-Chapter-49.mp3
+ffmpeg -y -ss 11:55:59 -t 0:23:38 -i ShatteredLand.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  ShatteredLand-Chapter-50.mp3
+ffmpeg -y -ss 12:19:37 -t 0:12:42 -i ShatteredLand.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  ShatteredLand-Chapter-51.mp3
+ffmpeg -y -ss 12:32:19 -t 0:04:47 -i ShatteredLand.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  ShatteredLand-Chapter-52.mp3
+mv ShatteredLand.mp3 /cygdrive/d/
+for i in *mp3; do mp3splt -t 5.0 $i; rm $i; done
+for i in `seq 0 5` ; do mkdir $i; mv ShatteredLand-Chapter-$i* $i/; done
+for i in `seq 0 5` ; do cd $i; dotracks.sh 'Keith Baker' 'ShatteredLand'; cd ..; done

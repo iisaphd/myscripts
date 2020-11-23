@@ -1,0 +1,2 @@
+for i in 1; do rsync -av --no-perms /cygdrive/e/audible/* pi@pi3:/media/SED/audible/; rsync -av --no-perms /cygdrive/e/audible/* pi@pi4:/media/SED/audible/; rsync -av --no-perms /cygdrive/e/audible/* pi@pi5:/media/SED/audible/; done
+for i in 1; do rsync -av --no-perms /cygdrive/d/calibre/* /cygdrive/e/calibre/; rsync -av --no-perms /cygdrive/d/calibre/* pi@pi3:/media/SED/calibre/; rsync -av --no-perms /cygdrive/d/calibre/* pi@pi4:/media/SED/calibre/; rsync -av --no-perms /cygdrive/d/calibre/* pi@pi5:/media/SED/calibre/; done

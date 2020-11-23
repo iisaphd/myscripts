@@ -1,0 +1,51 @@
+ffmpeg -y -ss 0:00:00 -t 0:10:44 -i CityofTowers.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  CityofTowers-Chapter-00.mp3
+ffmpeg -y -ss 0:10:44 -t 0:04:43 -i CityofTowers.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  CityofTowers-Chapter-01.mp3
+ffmpeg -y -ss 0:15:27 -t 0:25:06 -i CityofTowers.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  CityofTowers-Chapter-02.mp3
+ffmpeg -y -ss 0:40:33 -t 0:22:32 -i CityofTowers.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  CityofTowers-Chapter-03.mp3
+ffmpeg -y -ss 1:03:05 -t 0:12:04 -i CityofTowers.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  CityofTowers-Chapter-04.mp3
+ffmpeg -y -ss 1:15:09 -t 0:15:51 -i CityofTowers.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  CityofTowers-Chapter-05.mp3
+ffmpeg -y -ss 1:31:00 -t 0:15:23 -i CityofTowers.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  CityofTowers-Chapter-06.mp3
+ffmpeg -y -ss 1:46:23 -t 0:10:51 -i CityofTowers.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  CityofTowers-Chapter-07.mp3
+ffmpeg -y -ss 1:57:14 -t 0:11:51 -i CityofTowers.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  CityofTowers-Chapter-08.mp3
+ffmpeg -y -ss 2:09:05 -t 0:12:58 -i CityofTowers.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  CityofTowers-Chapter-09.mp3
+ffmpeg -y -ss 2:22:03 -t 0:10:00 -i CityofTowers.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  CityofTowers-Chapter-10.mp3
+ffmpeg -y -ss 2:32:03 -t 0:19:01 -i CityofTowers.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  CityofTowers-Chapter-11.mp3
+ffmpeg -y -ss 2:51:04 -t 0:16:19 -i CityofTowers.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  CityofTowers-Chapter-12.mp3
+ffmpeg -y -ss 3:07:23 -t 0:18:30 -i CityofTowers.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  CityofTowers-Chapter-13.mp3
+ffmpeg -y -ss 3:25:53 -t 0:17:13 -i CityofTowers.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  CityofTowers-Chapter-14.mp3
+ffmpeg -y -ss 3:43:06 -t 0:06:17 -i CityofTowers.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  CityofTowers-Chapter-15.mp3
+ffmpeg -y -ss 3:49:23 -t 0:25:07 -i CityofTowers.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  CityofTowers-Chapter-16.mp3
+ffmpeg -y -ss 4:14:30 -t 0:26:04 -i CityofTowers.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  CityofTowers-Chapter-17.mp3
+ffmpeg -y -ss 4:40:34 -t 0:11:09 -i CityofTowers.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  CityofTowers-Chapter-18.mp3
+ffmpeg -y -ss 4:51:43 -t 0:06:32 -i CityofTowers.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  CityofTowers-Chapter-19.mp3
+ffmpeg -y -ss 4:58:15 -t 0:12:27 -i CityofTowers.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  CityofTowers-Chapter-20.mp3
+ffmpeg -y -ss 5:10:42 -t 0:17:37 -i CityofTowers.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  CityofTowers-Chapter-21.mp3
+ffmpeg -y -ss 5:28:19 -t 0:20:07 -i CityofTowers.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  CityofTowers-Chapter-22.mp3
+ffmpeg -y -ss 5:48:26 -t 0:20:18 -i CityofTowers.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  CityofTowers-Chapter-23.mp3
+ffmpeg -y -ss 6:08:44 -t 0:16:01 -i CityofTowers.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  CityofTowers-Chapter-24.mp3
+ffmpeg -y -ss 6:24:45 -t 0:10:33 -i CityofTowers.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  CityofTowers-Chapter-25.mp3
+ffmpeg -y -ss 6:35:18 -t 0:04:16 -i CityofTowers.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  CityofTowers-Chapter-26.mp3
+ffmpeg -y -ss 6:39:34 -t 0:14:37 -i CityofTowers.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  CityofTowers-Chapter-27.mp3
+ffmpeg -y -ss 6:54:11 -t 0:18:23 -i CityofTowers.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  CityofTowers-Chapter-28.mp3
+ffmpeg -y -ss 7:12:34 -t 0:10:05 -i CityofTowers.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  CityofTowers-Chapter-29.mp3
+ffmpeg -y -ss 7:22:39 -t 0:07:34 -i CityofTowers.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  CityofTowers-Chapter-30.mp3
+ffmpeg -y -ss 7:30:13 -t 0:12:45 -i CityofTowers.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  CityofTowers-Chapter-31.mp3
+ffmpeg -y -ss 7:42:58 -t 0:09:40 -i CityofTowers.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  CityofTowers-Chapter-32.mp3
+ffmpeg -y -ss 7:52:38 -t 0:27:55 -i CityofTowers.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  CityofTowers-Chapter-33.mp3
+ffmpeg -y -ss 8:20:33 -t 0:13:00 -i CityofTowers.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  CityofTowers-Chapter-34.mp3
+ffmpeg -y -ss 8:33:33 -t 0:18:15 -i CityofTowers.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  CityofTowers-Chapter-35.mp3
+ffmpeg -y -ss 8:51:48 -t 0:12:13 -i CityofTowers.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  CityofTowers-Chapter-36.mp3
+ffmpeg -y -ss 9:04:01 -t 0:15:21 -i CityofTowers.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  CityofTowers-Chapter-37.mp3
+ffmpeg -y -ss 9:19:22 -t 0:09:53 -i CityofTowers.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  CityofTowers-Chapter-38.mp3
+ffmpeg -y -ss 9:29:15 -t 0:09:56 -i CityofTowers.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  CityofTowers-Chapter-39.mp3
+ffmpeg -y -ss 9:39:11 -t 0:15:55 -i CityofTowers.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  CityofTowers-Chapter-40.mp3
+ffmpeg -y -ss 9:55:06 -t 0:17:09 -i CityofTowers.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  CityofTowers-Chapter-41.mp3
+ffmpeg -y -ss 10:12:15 -t 0:23:32 -i CityofTowers.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  CityofTowers-Chapter-42.mp3
+ffmpeg -y -ss 10:35:47 -t 0:13:46 -i CityofTowers.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  CityofTowers-Chapter-43.mp3
+ffmpeg -y -ss 10:49:33 -t 0:15:49 -i CityofTowers.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  CityofTowers-Chapter-44.mp3
+ffmpeg -y -ss 11:05:22 -t 0:03:43 -i CityofTowers.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  CityofTowers-Chapter-45.mp3
+ffmpeg -y -ss 11:09:05 -t 1:01:05 -i CityofTowers.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  CityofTowers-Chapter-46.mp3
+mv CityofTowers.mp3 /cygdrive/d/
+for i in *mp3; do mp3splt -t 5.0 $i; rm $i; done
+for i in `seq 0 4` ; do mkdir $i; mv CityofTowers-Chapter-$i* $i/; done
+for i in `seq 0 4` ; do cd $i; dotracks.sh 'Keith Baker' 'CityofTowers'; cd ..; done

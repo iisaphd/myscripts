@@ -1,0 +1,53 @@
+ffmpeg -y -ss 0:00:00 -t 0:09:03 -i MycroftHolmes.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  MycroftHolmes-chapter-00.mp3
+ffmpeg -y -ss 0:09:03 -t 0:13:03 -i MycroftHolmes.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  MycroftHolmes-chapter-01.mp3
+ffmpeg -y -ss 0:22:06 -t 0:13:15 -i MycroftHolmes.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  MycroftHolmes-chapter-02.mp3
+ffmpeg -y -ss 0:35:21 -t 0:07:55 -i MycroftHolmes.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  MycroftHolmes-chapter-03.mp3
+ffmpeg -y -ss 0:43:16 -t 0:19:55 -i MycroftHolmes.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  MycroftHolmes-chapter-04.mp3
+ffmpeg -y -ss 1:03:11 -t 0:10:57 -i MycroftHolmes.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  MycroftHolmes-chapter-05.mp3
+ffmpeg -y -ss 1:14:08 -t 0:07:48 -i MycroftHolmes.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  MycroftHolmes-chapter-06.mp3
+ffmpeg -y -ss 1:21:56 -t 0:09:48 -i MycroftHolmes.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  MycroftHolmes-chapter-07.mp3
+ffmpeg -y -ss 1:31:44 -t 0:19:02 -i MycroftHolmes.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  MycroftHolmes-chapter-08.mp3
+ffmpeg -y -ss 1:50:46 -t 0:22:10 -i MycroftHolmes.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  MycroftHolmes-chapter-09.mp3
+ffmpeg -y -ss 2:12:56 -t 0:10:31 -i MycroftHolmes.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  MycroftHolmes-chapter-10.mp3
+ffmpeg -y -ss 2:23:27 -t 0:08:30 -i MycroftHolmes.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  MycroftHolmes-chapter-11.mp3
+ffmpeg -y -ss 2:31:57 -t 0:13:18 -i MycroftHolmes.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  MycroftHolmes-chapter-12.mp3
+ffmpeg -y -ss 2:45:15 -t 0:15:23 -i MycroftHolmes.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  MycroftHolmes-chapter-13.mp3
+ffmpeg -y -ss 3:00:38 -t 0:16:10 -i MycroftHolmes.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  MycroftHolmes-chapter-14.mp3
+ffmpeg -y -ss 3:16:48 -t 0:13:32 -i MycroftHolmes.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  MycroftHolmes-chapter-15.mp3
+ffmpeg -y -ss 3:30:20 -t 0:14:46 -i MycroftHolmes.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  MycroftHolmes-chapter-16.mp3
+ffmpeg -y -ss 3:45:06 -t 0:09:23 -i MycroftHolmes.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  MycroftHolmes-chapter-17.mp3
+ffmpeg -y -ss 3:54:29 -t 0:07:44 -i MycroftHolmes.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  MycroftHolmes-chapter-18.mp3
+ffmpeg -y -ss 4:02:13 -t 0:14:33 -i MycroftHolmes.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  MycroftHolmes-chapter-19.mp3
+ffmpeg -y -ss 4:16:46 -t 0:07:26 -i MycroftHolmes.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  MycroftHolmes-chapter-20.mp3
+ffmpeg -y -ss 4:24:12 -t 0:11:34 -i MycroftHolmes.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  MycroftHolmes-chapter-21.mp3
+ffmpeg -y -ss 4:35:46 -t 0:16:22 -i MycroftHolmes.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  MycroftHolmes-chapter-22.mp3
+ffmpeg -y -ss 4:52:08 -t 0:11:25 -i MycroftHolmes.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  MycroftHolmes-chapter-23.mp3
+ffmpeg -y -ss 5:03:33 -t 0:16:34 -i MycroftHolmes.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  MycroftHolmes-chapter-24.mp3
+ffmpeg -y -ss 5:20:07 -t 0:14:59 -i MycroftHolmes.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  MycroftHolmes-chapter-25.mp3
+ffmpeg -y -ss 5:35:06 -t 0:16:07 -i MycroftHolmes.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  MycroftHolmes-chapter-26.mp3
+ffmpeg -y -ss 5:51:13 -t 0:11:39 -i MycroftHolmes.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  MycroftHolmes-chapter-27.mp3
+ffmpeg -y -ss 6:02:52 -t 0:16:23 -i MycroftHolmes.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  MycroftHolmes-chapter-28.mp3
+ffmpeg -y -ss 6:19:15 -t 0:08:50 -i MycroftHolmes.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  MycroftHolmes-chapter-29.mp3
+ffmpeg -y -ss 6:28:05 -t 0:10:53 -i MycroftHolmes.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  MycroftHolmes-chapter-30.mp3
+ffmpeg -y -ss 6:38:58 -t 0:10:36 -i MycroftHolmes.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  MycroftHolmes-chapter-31.mp3
+ffmpeg -y -ss 6:49:34 -t 0:11:18 -i MycroftHolmes.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  MycroftHolmes-chapter-32.mp3
+ffmpeg -y -ss 7:00:52 -t 0:09:11 -i MycroftHolmes.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  MycroftHolmes-chapter-33.mp3
+ffmpeg -y -ss 7:10:03 -t 0:06:37 -i MycroftHolmes.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  MycroftHolmes-chapter-34.mp3
+ffmpeg -y -ss 7:16:40 -t 0:13:36 -i MycroftHolmes.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  MycroftHolmes-chapter-35.mp3
+ffmpeg -y -ss 7:30:16 -t 0:13:53 -i MycroftHolmes.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  MycroftHolmes-chapter-36.mp3
+ffmpeg -y -ss 7:44:09 -t 0:10:02 -i MycroftHolmes.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  MycroftHolmes-chapter-37.mp3
+ffmpeg -y -ss 7:54:11 -t 0:08:37 -i MycroftHolmes.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  MycroftHolmes-chapter-38.mp3
+ffmpeg -y -ss 8:02:48 -t 0:12:06 -i MycroftHolmes.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  MycroftHolmes-chapter-39.mp3
+ffmpeg -y -ss 8:14:54 -t 0:06:51 -i MycroftHolmes.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  MycroftHolmes-chapter-40.mp3
+ffmpeg -y -ss 8:21:45 -t 0:10:04 -i MycroftHolmes.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  MycroftHolmes-chapter-41.mp3
+ffmpeg -y -ss 8:31:49 -t 0:10:20 -i MycroftHolmes.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  MycroftHolmes-chapter-42.mp3
+ffmpeg -y -ss 8:42:09 -t 0:10:11 -i MycroftHolmes.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  MycroftHolmes-chapter-43.mp3
+ffmpeg -y -ss 8:52:20 -t 0:10:00 -i MycroftHolmes.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  MycroftHolmes-chapter-44.mp3
+ffmpeg -y -ss 9:02:20 -t 0:11:19 -i MycroftHolmes.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  MycroftHolmes-chapter-45.mp3
+ffmpeg -y -ss 9:13:39 -t 0:18:11 -i MycroftHolmes.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  MycroftHolmes-chapter-46.mp3
+ffmpeg -y -ss 9:31:50 -t 0:05:38 -i MycroftHolmes.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  MycroftHolmes-chapter-47.mp3
+ffmpeg -y -ss 9:37:28 -t 0:09:37 -i MycroftHolmes.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  MycroftHolmes-chapter-48.mp3
+mv MycroftHolmes.mp3 /cygdrive/d/
+for i in *mp3; do mp3splt -t 5.0 $i; rm $i; done
+for i in `seq 0 4` ; do mkdir $i; mv MycroftHolmes-chapter-$i* $i/; done
+for i in `seq 0 4` ; do cd $i; dotracks.sh 'Kareem Abdul Jabbar' 'MycroftHolmes'; cd ..; done

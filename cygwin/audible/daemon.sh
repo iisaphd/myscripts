@@ -1,0 +1,49 @@
+ffmpeg -y -ss 0:00:00 -t 0:03:41 -i Daemon.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  Daemon-Chapter-01.mp3
+ffmpeg -y -ss 0:03:41 -t 0:17:08 -i Daemon.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  Daemon-Chapter-02.mp3
+ffmpeg -y -ss 0:20:49 -t 0:19:36 -i Daemon.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  Daemon-Chapter-03.mp3
+ffmpeg -y -ss 0:40:25 -t 0:29:45 -i Daemon.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  Daemon-Chapter-04.mp3
+ffmpeg -y -ss 1:10:10 -t 0:10:36 -i Daemon.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  Daemon-Chapter-05.mp3
+ffmpeg -y -ss 1:20:46 -t 0:10:50 -i Daemon.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  Daemon-Chapter-06.mp3
+ffmpeg -y -ss 1:31:36 -t 0:07:52 -i Daemon.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  Daemon-Chapter-07.mp3
+ffmpeg -y -ss 1:39:28 -t 0:18:03 -i Daemon.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  Daemon-Chapter-08.mp3
+ffmpeg -y -ss 1:57:31 -t 0:25:01 -i Daemon.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  Daemon-Chapter-09.mp3
+ffmpeg -y -ss 2:22:32 -t 0:11:03 -i Daemon.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  Daemon-Chapter-10.mp3
+ffmpeg -y -ss 2:33:35 -t 0:04:34 -i Daemon.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  Daemon-Chapter-11.mp3
+ffmpeg -y -ss 2:38:09 -t 0:32:18 -i Daemon.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  Daemon-Chapter-12.mp3
+ffmpeg -y -ss 3:10:27 -t 0:06:28 -i Daemon.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  Daemon-Chapter-13.mp3
+ffmpeg -y -ss 3:16:55 -t 0:15:29 -i Daemon.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  Daemon-Chapter-14.mp3
+ffmpeg -y -ss 3:32:24 -t 0:19:01 -i Daemon.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  Daemon-Chapter-15.mp3
+ffmpeg -y -ss 3:51:25 -t 0:41:54 -i Daemon.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  Daemon-Chapter-16.mp3
+ffmpeg -y -ss 4:33:19 -t 0:09:33 -i Daemon.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  Daemon-Chapter-17.mp3
+ffmpeg -y -ss 4:42:52 -t 0:49:16 -i Daemon.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  Daemon-Chapter-18.mp3
+ffmpeg -y -ss 5:32:08 -t 0:28:28 -i Daemon.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  Daemon-Chapter-19.mp3
+ffmpeg -y -ss 6:00:36 -t 0:31:25 -i Daemon.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  Daemon-Chapter-20.mp3
+ffmpeg -y -ss 6:32:01 -t 0:18:33 -i Daemon.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  Daemon-Chapter-21.mp3
+ffmpeg -y -ss 6:50:34 -t 0:33:46 -i Daemon.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  Daemon-Chapter-22.mp3
+ffmpeg -y -ss 7:24:20 -t 0:22:59 -i Daemon.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  Daemon-Chapter-23.mp3
+ffmpeg -y -ss 7:47:19 -t 0:05:00 -i Daemon.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  Daemon-Chapter-24.mp3
+ffmpeg -y -ss 7:52:19 -t 0:44:26 -i Daemon.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  Daemon-Chapter-25.mp3
+ffmpeg -y -ss 8:36:45 -t 0:34:04 -i Daemon.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  Daemon-Chapter-26.mp3
+ffmpeg -y -ss 9:10:49 -t 0:32:34 -i Daemon.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  Daemon-Chapter-27.mp3
+ffmpeg -y -ss 9:43:23 -t 0:30:39 -i Daemon.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  Daemon-Chapter-28.mp3
+ffmpeg -y -ss 10:14:02 -t 0:08:01 -i Daemon.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  Daemon-Chapter-29.mp3
+ffmpeg -y -ss 10:22:03 -t 0:09:44 -i Daemon.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  Daemon-Chapter-30.mp3
+ffmpeg -y -ss 10:31:47 -t 0:32:15 -i Daemon.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  Daemon-Chapter-31.mp3
+ffmpeg -y -ss 11:04:02 -t 0:10:22 -i Daemon.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  Daemon-Chapter-32.mp3
+ffmpeg -y -ss 11:14:24 -t 0:01:53 -i Daemon.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  Daemon-Chapter-33.mp3
+ffmpeg -y -ss 11:16:17 -t 0:12:54 -i Daemon.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  Daemon-Chapter-34.mp3
+ffmpeg -y -ss 11:29:11 -t 0:29:30 -i Daemon.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  Daemon-Chapter-35.mp3
+ffmpeg -y -ss 11:58:41 -t 0:17:55 -i Daemon.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  Daemon-Chapter-36.mp3
+ffmpeg -y -ss 12:16:36 -t 0:11:13 -i Daemon.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  Daemon-Chapter-37.mp3
+ffmpeg -y -ss 12:27:49 -t 0:17:04 -i Daemon.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  Daemon-Chapter-38.mp3
+ffmpeg -y -ss 12:44:53 -t 0:09:50 -i Daemon.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  Daemon-Chapter-39.mp3
+ffmpeg -y -ss 12:54:43 -t 0:18:10 -i Daemon.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  Daemon-Chapter-40.mp3
+ffmpeg -y -ss 13:12:53 -t 0:14:19 -i Daemon.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  Daemon-Chapter-41.mp3
+ffmpeg -y -ss 13:27:12 -t 0:31:25 -i Daemon.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  Daemon-Chapter-42.mp3
+ffmpeg -y -ss 13:58:37 -t 0:48:14 -i Daemon.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  Daemon-Chapter-43.mp3
+ffmpeg -y -ss 14:46:51 -t 0:35:32 -i Daemon.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  Daemon-Chapter-44.mp3
+ffmpeg -y -ss 15:22:23 -t 0:33:31 -i Daemon.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  Daemon-Chapter-45.mp3
+mv Daemon.mp3 /cygdrive/d/
+for i in *mp3; do mp3splt -t 5.0 $i; rm $i; done
+for i in `seq 0 4` ; do mkdir $i; mv Daemon-Chapter-$i* $i/; done
+for i in `seq 0 4` ; do cd $i; dotracks.sh 'Daniel Suarez' 'Daemon'; cd ..; done

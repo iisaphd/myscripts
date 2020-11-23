@@ -1,0 +1,83 @@
+ffmpeg -y -ss 0:00:00 -t 0:35:56 -i "The Dragon Reborn-Part01.mp3" -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  "The Dragon Reborn-chapter-00.mp3"
+ffmpeg -y -ss 0:35:56 -t 0:35:13 -i "The Dragon Reborn-Part01.mp3" -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  "The Dragon Reborn-chapter-01.mp3"
+ffmpeg -y -ss 1:11:09 -t 0:07:51 -i "The Dragon Reborn-Part01.mp3" -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  "The Dragon Reborn-chapter-02.mp3"
+ffmpeg -y -ss 0:00:00 -t 0:25:33 -i "The Dragon Reborn-Part02.mp3" -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  "The Dragon Reborn-chapter-02a.mp3"
+ffmpeg -y -ss 0:25:33 -t 0:22:19 -i "The Dragon Reborn-Part02.mp3" -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  "The Dragon Reborn-chapter-03.mp3"
+ffmpeg -y -ss 0:47:52 -t 0:19:57 -i "The Dragon Reborn-Part02.mp3" -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  "The Dragon Reborn-chapter-04.mp3"
+ffmpeg -y -ss 1:07:49 -t 0:11:11 -i "The Dragon Reborn-Part02.mp3" -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  "The Dragon Reborn-chapter-05.mp3"
+ffmpeg -y -ss 0:00:00 -t 0:24:05 -i "The Dragon Reborn-Part03.mp3" -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  "The Dragon Reborn-chapter-05a.mp3"
+ffmpeg -y -ss 0:24:05 -t 0:33:22 -i "The Dragon Reborn-Part03.mp3" -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  "The Dragon Reborn-chapter-06.mp3"
+ffmpeg -y -ss 0:57:27 -t 0:12:10 -i "The Dragon Reborn-Part03.mp3" -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  "The Dragon Reborn-chapter-07.mp3"
+ffmpeg -y -ss 1:09:37 -t 0:09:23 -i "The Dragon Reborn-Part03.mp3" -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  "The Dragon Reborn-chapter-08.mp3"
+ffmpeg -y -ss 0:00:00 -t 0:29:32 -i "The Dragon Reborn-Part04.mp3" -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  "The Dragon Reborn-chapter-08a.mp3"
+ffmpeg -y -ss 0:29:32 -t 0:18:10 -i "The Dragon Reborn-Part04.mp3" -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  "The Dragon Reborn-chapter-09.mp3"
+ffmpeg -y -ss 0:47:42 -t 0:31:18 -i "The Dragon Reborn-Part04.mp3" -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  "The Dragon Reborn-chapter-10.mp3"
+ffmpeg -y -ss 0:00:00 -t 1:19:00 -i "The Dragon Reborn-Part05.mp3" -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  "The Dragon Reborn-chapter-11.mp3"
+ffmpeg -y -ss 0:00:00 -t 0:16:05 -i "The Dragon Reborn-Part06.mp3" -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  "The Dragon Reborn-chapter-14.mp3"
+ffmpeg -y -ss 0:16:05 -t 0:18:20 -i "The Dragon Reborn-Part06.mp3" -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  "The Dragon Reborn-chapter-15.mp3"
+ffmpeg -y -ss 0:34:25 -t 0:18:36 -i "The Dragon Reborn-Part06.mp3" -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  "The Dragon Reborn-chapter-16.mp3"
+ffmpeg -y -ss 0:53:01 -t 0:14:29 -i "The Dragon Reborn-Part06.mp3" -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  "The Dragon Reborn-chapter-17.mp3"
+ffmpeg -y -ss 1:07:30 -t 0:11:30 -i "The Dragon Reborn-Part06.mp3" -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  "The Dragon Reborn-chapter-18.mp3"
+ffmpeg -y -ss 0:00:00 -t 0:04:24 -i "The Dragon Reborn-Part07.mp3" -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  "The Dragon Reborn-chapter-18a.mp3"
+ffmpeg -y -ss 0:04:24 -t 0:17:12 -i "The Dragon Reborn-Part07.mp3" -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  "The Dragon Reborn-chapter-19.mp3"
+ffmpeg -y -ss 0:21:36 -t 0:29:53 -i "The Dragon Reborn-Part07.mp3" -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  "The Dragon Reborn-chapter-20.mp3"
+ffmpeg -y -ss 0:51:29 -t 0:17:16 -i "The Dragon Reborn-Part07.mp3" -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  "The Dragon Reborn-chapter-21.mp3"
+ffmpeg -y -ss 1:08:45 -t 0:10:15 -i "The Dragon Reborn-Part07.mp3" -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  "The Dragon Reborn-chapter-22.mp3"
+ffmpeg -y -ss 0:00:00 -t 0:49:49 -i "The Dragon Reborn-Part08.mp3" -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  "The Dragon Reborn-chapter-22a.mp3"
+ffmpeg -y -ss 0:49:49 -t 0:19:17 -i "The Dragon Reborn-Part08.mp3" -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  "The Dragon Reborn-chapter-23.mp3"
+ffmpeg -y -ss 1:09:06 -t 0:09:54 -i "The Dragon Reborn-Part08.mp3" -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  "The Dragon Reborn-chapter-24.mp3"
+ffmpeg -y -ss 0:00:00 -t 0:26:05 -i "The Dragon Reborn-Part09.mp3" -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  "The Dragon Reborn-chapter-24a.mp3"
+ffmpeg -y -ss 0:26:05 -t 0:52:55 -i "The Dragon Reborn-Part09.mp3" -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  "The Dragon Reborn-chapter-25.mp3"
+ffmpeg -y -ss 0:00:00 -t 0:27:26 -i "The Dragon Reborn-Part10.mp3" -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  "The Dragon Reborn-chapter-27a.mp3"
+ffmpeg -y -ss 0:27:26 -t 0:15:19 -i "The Dragon Reborn-Part10.mp3" -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  "The Dragon Reborn-chapter-28.mp3"
+ffmpeg -y -ss 0:42:45 -t 0:20:27 -i "The Dragon Reborn-Part10.mp3" -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  "The Dragon Reborn-chapter-29.mp3"
+ffmpeg -y -ss 1:03:12 -t 0:15:48 -i "The Dragon Reborn-Part10.mp3" -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  "The Dragon Reborn-chapter-30.mp3"
+ffmpeg -y -ss 0:00:00 -t 0:11:50 -i "The Dragon Reborn-Part11.mp3" -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  "The Dragon Reborn-chapter-30a.mp3"
+ffmpeg -y -ss 0:11:50 -t 0:16:04 -i "The Dragon Reborn-Part11.mp3" -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  "The Dragon Reborn-chapter-31.mp3"
+ffmpeg -y -ss 0:27:54 -t 0:35:28 -i "The Dragon Reborn-Part11.mp3" -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  "The Dragon Reborn-chapter-32.mp3"
+ffmpeg -y -ss 1:03:22 -t 0:15:38 -i "The Dragon Reborn-Part11.mp3" -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  "The Dragon Reborn-chapter-33.mp3"
+ffmpeg -y -ss 0:00:00 -t 0:16:26 -i "The Dragon Reborn-Part12.mp3" -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  "The Dragon Reborn-chapter-33a.mp3"
+ffmpeg -y -ss 0:16:26 -t 0:25:24 -i "The Dragon Reborn-Part12.mp3" -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  "The Dragon Reborn-chapter-34.mp3"
+ffmpeg -y -ss 0:41:50 -t 0:19:45 -i "The Dragon Reborn-Part12.mp3" -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  "The Dragon Reborn-chapter-35.mp3"
+ffmpeg -y -ss 1:01:35 -t 0:17:25 -i "The Dragon Reborn-Part12.mp3" -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  "The Dragon Reborn-chapter-36.mp3"
+ffmpeg -y -ss 0:00:00 -t 0:18:15 -i "The Dragon Reborn-Part13.mp3" -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  "The Dragon Reborn-chapter-36a.mp3"
+ffmpeg -y -ss 0:18:15 -t 0:23:30 -i "The Dragon Reborn-Part13.mp3" -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  "The Dragon Reborn-chapter-37.mp3"
+ffmpeg -y -ss 0:41:45 -t 0:23:46 -i "The Dragon Reborn-Part13.mp3" -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  "The Dragon Reborn-chapter-38.mp3"
+ffmpeg -y -ss 1:05:31 -t 0:13:29 -i "The Dragon Reborn-Part13.mp3" -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  "The Dragon Reborn-chapter-39.mp3"
+ffmpeg -y -ss 0:00:00 -t 0:39:20 -i "The Dragon Reborn-Part14.mp3" -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  "The Dragon Reborn-chapter-39a.mp3"
+ffmpeg -y -ss 0:39:20 -t 0:39:40 -i "The Dragon Reborn-Part14.mp3" -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  "The Dragon Reborn-chapter-40.mp3"
+ffmpeg -y -ss 0:00:00 -t 0:18:10 -i "The Dragon Reborn-Part15.mp3" -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  "The Dragon Reborn-chapter-41.mp3"
+ffmpeg -y -ss 0:18:10 -t 0:33:33 -i "The Dragon Reborn-Part15.mp3" -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  "The Dragon Reborn-chapter-42.mp3"
+ffmpeg -y -ss 0:51:43 -t 0:18:44 -i "The Dragon Reborn-Part15.mp3" -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  "The Dragon Reborn-chapter-43.mp3"
+ffmpeg -y -ss 1:10:27 -t 0:08:33 -i "The Dragon Reborn-Part15.mp3" -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  "The Dragon Reborn-chapter-44.mp3"
+ffmpeg -y -ss 0:00:00 -t 0:25:38 -i "The Dragon Reborn-Part16.mp3" -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  "The Dragon Reborn-chapter-44a.mp3"
+ffmpeg -y -ss 0:25:38 -t 0:22:24 -i "The Dragon Reborn-Part16.mp3" -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  "The Dragon Reborn-chapter-45.mp3"
+ffmpeg -y -ss 0:48:02 -t 0:30:58 -i "The Dragon Reborn-Part16.mp3" -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  "The Dragon Reborn-chapter-46.mp3"
+ffmpeg -y -ss 0:00:00 -t 0:17:10 -i "The Dragon Reborn-Part17.mp3" -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  "The Dragon Reborn-chapter-47.mp3"
+ffmpeg -y -ss 0:17:10 -t 0:37:21 -i "The Dragon Reborn-Part17.mp3" -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  "The Dragon Reborn-chapter-48.mp3"
+ffmpeg -y -ss 0:54:31 -t 0:24:29 -i "The Dragon Reborn-Part17.mp3" -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  "The Dragon Reborn-chapter-49.mp3"
+ffmpeg -y -ss 0:00:00 -t 0:24:50 -i "The Dragon Reborn-Part18.mp3" -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  "The Dragon Reborn-chapter-49a.mp3"
+ffmpeg -y -ss 0:24:50 -t 0:35:50 -i "The Dragon Reborn-Part18.mp3" -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  "The Dragon Reborn-chapter-50.mp3"
+ffmpeg -y -ss 1:00:40 -t 0:18:20 -i "The Dragon Reborn-Part18.mp3" -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  "The Dragon Reborn-chapter-51.mp3"
+ffmpeg -y -ss 0:00:00 -t 0:07:51 -i "The Dragon Reborn-Part19.mp3" -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  "The Dragon Reborn-chapter-51a.mp3"
+ffmpeg -y -ss 0:07:51 -t 0:15:20 -i "The Dragon Reborn-Part19.mp3" -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  "The Dragon Reborn-chapter-52.mp3"
+ffmpeg -y -ss 0:23:11 -t 0:18:40 -i "The Dragon Reborn-Part19.mp3" -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  "The Dragon Reborn-chapter-53.mp3"
+ffmpeg -y -ss 0:41:51 -t 0:37:09 -i "The Dragon Reborn-Part19.mp3" -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  "The Dragon Reborn-chapter-54.mp3"
+ffmpeg -y -ss 0:00:00 -t 0:09:50 -i "The Dragon Reborn-Part20.mp3" -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  "The Dragon Reborn-chapter-54a.mp3"
+ffmpeg -y -ss 0:09:50 -t 0:45:02 -i "The Dragon Reborn-Part20.mp3" -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  "The Dragon Reborn-chapter-55.mp3"
+ffmpeg -y -ss 0:54:52 -t 0:24:08 -i "The Dragon Reborn-Part20.mp3" -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  "The Dragon Reborn-chapter-56.mp3"
+
+
+
+
+
+rm *-Part*
+for i in *mp3; do mp3splt -t 5.0 "$i"; rm "$i"; done
+for i in `seq 0 9` ; do mkdir 0$i; mv The\ Dragon\ Reborn-chapter-0$i* 0$i/; done
+for i in `seq 0 9` ; do cp *jpg 0$i/; cd 0$i; dotracks.sh 'Robert Jordan' 'The Dragon Reborn'; cd ..; done
+for i in `seq 10 56` ; do mkdir $i; mv The\ Dragon\ Reborn-chapter-$i* $i/; done
+for i in `seq 10 56a` ; do cp *jpg $i/; cd $i; dotracks.sh 'Robert Jordan' 'The Dragon Reborn'; cd ..; done
+
+
+rm *odm
+rm *marker

@@ -1,0 +1,55 @@
+ffmpeg -y -ss 0:00:00 -t 0:47:42 -i Underworld.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  Underworld-Chapter-00.1.mp3
+ffmpeg -y -ss 0:47:42 -t 0:43:35 -i Underworld.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  Underworld-Chapter-00.2.mp3
+ffmpeg -y -ss 1:31:17 -t 0:39:36 -i Underworld.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  Underworld-Chapter-00.3.mp3
+ffmpeg -y -ss 2:10:53 -t 0:57:23 -i Underworld.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  Underworld-Chapter-01-01.mp3
+ffmpeg -y -ss 3:08:16 -t 0:15:07 -i Underworld.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  Underworld-Chapter-01-02.mp3
+ffmpeg -y -ss 3:23:23 -t 0:21:47 -i Underworld.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  Underworld-Chapter-01-03.mp3
+ffmpeg -y -ss 3:45:10 -t 0:16:53 -i Underworld.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  Underworld-Chapter-01-04.mp3
+ffmpeg -y -ss 4:02:03 -t 0:24:25 -i Underworld.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  Underworld-Chapter-01-05.mp3
+ffmpeg -y -ss 4:26:28 -t 0:11:55 -i Underworld.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  Underworld-Chapter-01-06.mp3
+ffmpeg -y -ss 4:38:23 -t 0:25:58 -i Underworld.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  Underworld-Chapter-01-07.mp3
+ffmpeg -y -ss 5:04:21 -t 0:32:06 -i Underworld.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  Underworld-Chapter-01-MM.mp3
+ffmpeg -y -ss 5:36:27 -t 0:13:26 -i Underworld.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  Underworld-Chapter-02-01.mp3
+ffmpeg -y -ss 5:49:53 -t 0:12:30 -i Underworld.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  Underworld-Chapter-02-02.mp3
+ffmpeg -y -ss 6:02:23 -t 0:47:26 -i Underworld.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  Underworld-Chapter-02-03.mp3
+ffmpeg -y -ss 6:49:49 -t 0:14:55 -i Underworld.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  Underworld-Chapter-02-04.mp3
+ffmpeg -y -ss 7:04:44 -t 0:36:31 -i Underworld.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  Underworld-Chapter-02-05.mp3
+ffmpeg -y -ss 7:41:15 -t 0:27:07 -i Underworld.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  Underworld-Chapter-02-06.mp3
+ffmpeg -y -ss 8:08:22 -t 0:38:37 -i Underworld.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  Underworld-Chapter-02-07.mp3
+ffmpeg -y -ss 8:46:59 -t 0:38:33 -i Underworld.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  Underworld-Chapter-02-08.mp3
+ffmpeg -y -ss 9:25:32 -t 0:23:12 -i Underworld.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  Underworld-Chapter-02-09.mp3
+ffmpeg -y -ss 9:48:44 -t 0:25:45 -i Underworld.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  Underworld-Chapter-02-10.mp3
+ffmpeg -y -ss 10:14:29 -t 0:37:42 -i Underworld.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  Underworld-Chapter-03-01.1.mp3
+ffmpeg -y -ss 10:52:11 -t 0:36:30 -i Underworld.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  Underworld-Chapter-03-01.2.mp3
+ffmpeg -y -ss 11:28:41 -t 0:49:34 -i Underworld.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  Underworld-Chapter-03-02.mp3
+ffmpeg -y -ss 12:18:15 -t 0:47:02 -i Underworld.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  Underworld-Chapter-03-03.mp3
+ffmpeg -y -ss 13:05:17 -t 0:43:26 -i Underworld.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  Underworld-Chapter-03-MM.mp3
+ffmpeg -y -ss 13:48:43 -t 0:37:15 -i Underworld.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  Underworld-Chapter-04-01.1.mp3
+ffmpeg -y -ss 14:25:58 -t 0:36:17 -i Underworld.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  Underworld-Chapter-04-01.2.mp3
+ffmpeg -y -ss 15:02:15 -t 0:52:04 -i Underworld.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  Underworld-Chapter-04-02.mp3
+ffmpeg -y -ss 15:54:19 -t 0:58:58 -i Underworld.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  Underworld-Chapter-04-03.mp3
+ffmpeg -y -ss 16:53:17 -t 0:56:08 -i Underworld.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  Underworld-Chapter-04-04.mp3
+ffmpeg -y -ss 17:49:25 -t 0:37:48 -i Underworld.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  Underworld-Chapter-04-05.1.mp3
+ffmpeg -y -ss 18:27:13 -t 0:32:59 -i Underworld.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  Underworld-Chapter-04-05.2.mp3
+ffmpeg -y -ss 19:00:12 -t 0:28:35 -i Underworld.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  Underworld-Chapter-05-01.mp3
+ffmpeg -y -ss 19:28:47 -t 0:55:35 -i Underworld.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  Underworld-Chapter-05-02.mp3
+ffmpeg -y -ss 20:24:22 -t 0:43:18 -i Underworld.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  Underworld-Chapter-05-03.mp3
+ffmpeg -y -ss 21:07:40 -t 0:59:21 -i Underworld.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  Underworld-Chapter-05-04.mp3
+ffmpeg -y -ss 22:07:01 -t 0:38:07 -i Underworld.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  Underworld-Chapter-05-05.mp3
+ffmpeg -y -ss 22:45:08 -t 0:49:00 -i Underworld.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  Underworld-Chapter-05-06.mp3
+ffmpeg -y -ss 23:34:08 -t 0:51:01 -i Underworld.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  Underworld-Chapter-05-07.mp3
+ffmpeg -y -ss 24:25:09 -t 0:36:18 -i Underworld.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  Underworld-Chapter-05-MM.mp3
+ffmpeg -y -ss 25:01:27 -t 0:57:54 -i Underworld.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  Underworld-Chapter-06-01.mp3
+ffmpeg -y -ss 25:59:21 -t 0:24:02 -i Underworld.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  Underworld-Chapter-06-02.mp3
+ffmpeg -y -ss 26:23:23 -t 0:32:23 -i Underworld.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  Underworld-Chapter-06-03.mp3
+ffmpeg -y -ss 26:55:46 -t 0:41:36 -i Underworld.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  Underworld-Chapter-06-04.mp3
+ffmpeg -y -ss 27:37:22 -t 0:27:03 -i Underworld.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  Underworld-Chapter-06-05.mp3
+ffmpeg -y -ss 28:04:25 -t 0:21:24 -i Underworld.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  Underworld-Chapter-06-06.mp3
+ffmpeg -y -ss 28:25:49 -t 0:39:17 -i Underworld.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  Underworld-Chapter-06-07.mp3
+ffmpeg -y -ss 29:05:06 -t 0:22:53 -i Underworld.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  Underworld-Chapter-06-08.mp3
+ffmpeg -y -ss 29:27:59 -t 0:57:47 -i Underworld.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  Underworld-Chapter-07-01.1.mp3
+ffmpeg -y -ss 30:25:46 -t 0:57:12 -i Underworld.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  Underworld-Chapter-07-01.2.mp3
+mv Underworld.mp3 /cygdrive/d/
+for i in *mp3; do mp3splt -t 5.0 $i; done
+for i in `seq 0 7` ; do mkdir $i; mv Underworld-Chapter-0$i* $i/; done
+for i in `seq 0 7` ; do cd $i; dotracks.sh 'Don Delillo' 'Underworld'; cd ..; done

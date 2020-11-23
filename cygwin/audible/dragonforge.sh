@@ -1,0 +1,51 @@
+ffmpeg -y -ss 0:00:00 -t 0:17:13 -i DragonForge.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  DragonForge-chapter-01.mp3
+ffmpeg -y -ss 0:17:13 -t 0:18:22 -i DragonForge.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  DragonForge-chapter-02.mp3
+ffmpeg -y -ss 0:35:35 -t 0:14:33 -i DragonForge.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  DragonForge-chapter-03.mp3
+ffmpeg -y -ss 0:50:08 -t 0:12:24 -i DragonForge.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  DragonForge-chapter-04.mp3
+ffmpeg -y -ss 1:02:32 -t 0:12:22 -i DragonForge.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  DragonForge-chapter-05.mp3
+ffmpeg -y -ss 1:14:54 -t 0:12:34 -i DragonForge.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  DragonForge-chapter-06.mp3
+ffmpeg -y -ss 1:27:28 -t 0:14:28 -i DragonForge.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  DragonForge-chapter-07.mp3
+ffmpeg -y -ss 1:41:56 -t 0:19:41 -i DragonForge.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  DragonForge-chapter-08.mp3
+ffmpeg -y -ss 2:01:37 -t 0:21:18 -i DragonForge.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  DragonForge-chapter-09.mp3
+ffmpeg -y -ss 2:22:55 -t 0:16:54 -i DragonForge.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  DragonForge-chapter-10.mp3
+ffmpeg -y -ss 2:39:49 -t 0:15:33 -i DragonForge.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  DragonForge-chapter-11.mp3
+ffmpeg -y -ss 2:55:22 -t 0:11:43 -i DragonForge.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  DragonForge-chapter-12.mp3
+ffmpeg -y -ss 3:07:05 -t 0:18:40 -i DragonForge.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  DragonForge-chapter-13.mp3
+ffmpeg -y -ss 3:25:45 -t 0:17:43 -i DragonForge.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  DragonForge-chapter-14.mp3
+ffmpeg -y -ss 3:43:28 -t 0:16:35 -i DragonForge.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  DragonForge-chapter-15.mp3
+ffmpeg -y -ss 4:00:03 -t 0:15:34 -i DragonForge.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  DragonForge-chapter-16.mp3
+ffmpeg -y -ss 4:15:37 -t 0:17:51 -i DragonForge.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  DragonForge-chapter-17.mp3
+ffmpeg -y -ss 4:33:28 -t 0:17:36 -i DragonForge.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  DragonForge-chapter-18.mp3
+ffmpeg -y -ss 4:51:04 -t 0:21:09 -i DragonForge.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  DragonForge-chapter-19.mp3
+ffmpeg -y -ss 5:12:13 -t 0:15:14 -i DragonForge.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  DragonForge-chapter-20.mp3
+ffmpeg -y -ss 5:27:27 -t 0:10:16 -i DragonForge.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  DragonForge-chapter-21.mp3
+ffmpeg -y -ss 5:37:43 -t 0:15:56 -i DragonForge.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  DragonForge-chapter-22.mp3
+ffmpeg -y -ss 5:53:39 -t 0:14:50 -i DragonForge.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  DragonForge-chapter-23.mp3
+ffmpeg -y -ss 6:08:29 -t 0:16:17 -i DragonForge.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  DragonForge-chapter-24.mp3
+ffmpeg -y -ss 6:24:46 -t 0:03:19 -i DragonForge.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  DragonForge-chapter-25.mp3
+ffmpeg -y -ss 6:28:05 -t 0:15:44 -i DragonForge.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  DragonForge-chapter-26.mp3
+ffmpeg -y -ss 6:43:49 -t 0:13:53 -i DragonForge.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  DragonForge-chapter-27.mp3
+ffmpeg -y -ss 6:57:42 -t 0:13:41 -i DragonForge.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  DragonForge-chapter-28.mp3
+ffmpeg -y -ss 7:11:23 -t 0:17:09 -i DragonForge.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  DragonForge-chapter-29.mp3
+ffmpeg -y -ss 7:28:32 -t 0:20:44 -i DragonForge.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  DragonForge-chapter-30.mp3
+ffmpeg -y -ss 7:49:16 -t 0:16:36 -i DragonForge.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  DragonForge-chapter-31.mp3
+ffmpeg -y -ss 8:05:52 -t 0:18:36 -i DragonForge.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  DragonForge-chapter-32.mp3
+ffmpeg -y -ss 8:24:28 -t 0:15:02 -i DragonForge.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  DragonForge-chapter-33.mp3
+ffmpeg -y -ss 8:39:30 -t 0:14:26 -i DragonForge.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  DragonForge-chapter-34.mp3
+ffmpeg -y -ss 8:53:56 -t 0:23:31 -i DragonForge.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  DragonForge-chapter-35.mp3
+ffmpeg -y -ss 9:17:27 -t 0:14:34 -i DragonForge.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  DragonForge-chapter-36.mp3
+ffmpeg -y -ss 9:32:01 -t 0:22:47 -i DragonForge.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  DragonForge-chapter-37.mp3
+ffmpeg -y -ss 9:54:48 -t 0:20:06 -i DragonForge.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  DragonForge-chapter-38.mp3
+ffmpeg -y -ss 10:14:54 -t 0:20:10 -i DragonForge.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  DragonForge-chapter-39.mp3
+ffmpeg -y -ss 10:35:04 -t 0:21:57 -i DragonForge.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  DragonForge-chapter-40.mp3
+ffmpeg -y -ss 10:57:01 -t 0:19:02 -i DragonForge.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  DragonForge-chapter-41.mp3
+ffmpeg -y -ss 11:16:03 -t 0:16:31 -i DragonForge.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  DragonForge-chapter-42.mp3
+ffmpeg -y -ss 11:32:34 -t 0:21:35 -i DragonForge.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  DragonForge-chapter-43.mp3
+ffmpeg -y -ss 11:54:09 -t 0:16:05 -i DragonForge.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  DragonForge-chapter-44.mp3
+ffmpeg -y -ss 12:10:14 -t 0:14:00 -i DragonForge.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  DragonForge-chapter-45.mp3
+ffmpeg -y -ss 12:24:14 -t 0:14:38 -i DragonForge.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  DragonForge-chapter-46.mp3
+ffmpeg -y -ss 12:38:52 -t 0:03:12 -i DragonForge.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  DragonForge-chapter-47.mp3
+mv DragonForge.mp3 /cygdrive/d/
+for i in *mp3; do mp3splt -t 5.0 $i; rm $i; done
+for i in `seq 0 4` ; do mkdir $i; mv DragonForge-chapter-$i* $i/; done
+for i in `seq 0 4` ; do cd $i; dotracks.sh 'WotC' 'DragonForge'; cd ..; done

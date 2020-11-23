@@ -1,0 +1,12 @@
+ffmpeg -y -ss 0:00:00 -t 0:40:56 -i Metamorphosis.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  Metamorphosis-Chapter-01.mp3
+ffmpeg -y -ss 0:40:56 -t 0:41:50 -i Metamorphosis.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  Metamorphosis-Chapter-02.mp3
+ffmpeg -y -ss 1:22:46 -t 0:44:29 -i Metamorphosis.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  Metamorphosis-Chapter-03.mp3
+ffmpeg -y -ss 2:07:15 -t 0:15:00 -i Metamorphosis.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  Metamorphosis-Chapter-04.mp3
+ffmpeg -y -ss 2:22:15 -t 0:16:03 -i Metamorphosis.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  Metamorphosis-Chapter-05.mp3
+ffmpeg -y -ss 2:38:18 -t 0:18:32 -i Metamorphosis.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  Metamorphosis-Chapter-06.mp3
+ffmpeg -y -ss 2:56:50 -t 0:16:21 -i Metamorphosis.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  Metamorphosis-Chapter-07.mp3
+ffmpeg -y -ss 3:13:11 -t 0:13:39 -i Metamorphosis.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  Metamorphosis-Chapter-08.mp3
+ffmpeg -y -ss 3:26:50 -t 0:11:49 -i Metamorphosis.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  Metamorphosis-Chapter-09.mp3
+ffmpeg -y -ss 3:38:39 -t 0:12:54 -i Metamorphosis.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  Metamorphosis-Chapter-10.mp3
+ffmpeg -y -ss 3:51:33 -t 0:31:37 -i Metamorphosis.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  Metamorphosis-Chapter-11.mp3
+ffmpeg -y -ss 4:23:10 -t 0:12:39 -i Metamorphosis.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  Metamorphosis-Chapter-12.mp3

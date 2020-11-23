@@ -1,0 +1,1 @@
+for i in *; do ffmpeg -i "$i" -vf scale=-1:$1 re"$i"; mv re"$i" "$i"; done

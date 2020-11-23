@@ -1,0 +1,31 @@
+ffmpeg -y -ss 0:27:10 -t 0:03:14 -i "The Dupin Stories-Part02.mp3" -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  "The Dupin Stories-chapter-01.mp3"
+ffmpeg -y -ss 0:30:24 -t 0:07:37 -i "The Dupin Stories-Part02.mp3" -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  "The Dupin Stories-chapter-02.mp3"
+ffmpeg -y -ss 0:38:01 -t 0:05:15 -i "The Dupin Stories-Part02.mp3" -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  "The Dupin Stories-chapter-03.mp3"
+ffmpeg -y -ss 0:43:16 -t 0:04:54 -i "The Dupin Stories-Part02.mp3" -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  "The Dupin Stories-chapter-04.mp3"
+ffmpeg -y -ss 0:48:10 -t 0:04:19 -i "The Dupin Stories-Part02.mp3" -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  "The Dupin Stories-chapter-05.mp3"
+ffmpeg -y -ss 0:52:29 -t 0:04:42 -i "The Dupin Stories-Part02.mp3" -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  "The Dupin Stories-chapter-06.mp3"
+ffmpeg -y -ss 0:00:00 -t 0:03:21 -i "The Dupin Stories-Part03.mp3" -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  "The Dupin Stories-chapter-07.mp3"
+ffmpeg -y -ss 0:03:21 -t 0:06:48 -i "The Dupin Stories-Part03.mp3" -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  "The Dupin Stories-chapter-08.mp3"
+ffmpeg -y -ss 0:10:09 -t 0:06:53 -i "The Dupin Stories-Part03.mp3" -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  "The Dupin Stories-chapter-09.mp3"
+ffmpeg -y -ss 0:17:02 -t 0:08:26 -i "The Dupin Stories-Part03.mp3" -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  "The Dupin Stories-chapter-10.mp3"
+ffmpeg -y -ss 0:25:28 -t 0:02:39 -i "The Dupin Stories-Part03.mp3" -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  "The Dupin Stories-chapter-11.mp3"
+ffmpeg -y -ss 0:28:07 -t 0:04:18 -i "The Dupin Stories-Part03.mp3" -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  "The Dupin Stories-chapter-12.mp3"
+ffmpeg -y -ss 0:32:25 -t 0:04:29 -i "The Dupin Stories-Part03.mp3" -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  "The Dupin Stories-chapter-13.mp3"
+ffmpeg -y -ss 0:36:54 -t 0:03:49 -i "The Dupin Stories-Part03.mp3" -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  "The Dupin Stories-chapter-14.mp3"
+ffmpeg -y -ss 0:40:43 -t 0:08:13 -i "The Dupin Stories-Part03.mp3" -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  "The Dupin Stories-chapter-15.mp3"
+ffmpeg -y -ss 0:48:56 -t 0:05:55 -i "The Dupin Stories-Part03.mp3" -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  "The Dupin Stories-chapter-16.mp3"
+ffmpeg -y -ss 0:54:51 -t 0:06:49 -i "The Dupin Stories-Part03.mp3" -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  "The Dupin Stories-chapter-17.mp3"
+ffmpeg -y -ss 0:00:00 -t 0:05:20 -i "The Dupin Stories-Part04.mp3" -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  "The Dupin Stories-chapter-18.mp3"
+ffmpeg -y -ss 0:05:20 -t 0:05:44 -i "The Dupin Stories-Part04.mp3" -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  "The Dupin Stories-chapter-19.mp3"
+ffmpeg -y -ss 0:11:04 -t 0:08:03 -i "The Dupin Stories-Part04.mp3" -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  "The Dupin Stories-chapter-20.mp3"
+ffmpeg -y -ss 0:19:07 -t 0:06:27 -i "The Dupin Stories-Part04.mp3" -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  "The Dupin Stories-chapter-21.mp3"
+rm *-Part*
+for i in *mp3; do mp3splt -t 5.0 "$i"; rm "$i"; done
+for i in `seq 0 2` ; do mkdir $i; mv The\ Mystery\ of\ Mary\ Roget-chapter-$i* $i/;  done
+for i in `seq 0 2` ; do cp *jpg $i/; cd $i; dotracks.sh 'Edgar Allan Poe' 'The Mystery of Marie Roget'; cd ..; done
+
+
+
+
+rm *odm
+rm *marker

@@ -1,0 +1,54 @@
+ffmpeg -y -ss 0:00:00 -t 1:30:37 -i BeautifulMind.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  BeautifulMind-chapter-01.mp3
+ffmpeg -y -ss 1:30:37 -t 0:26:29 -i BeautifulMind.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  BeautifulMind-chapter-02.mp3
+ffmpeg -y -ss 1:57:06 -t 0:28:57 -i BeautifulMind.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  BeautifulMind-chapter-03.mp3
+ffmpeg -y -ss 2:26:03 -t 0:24:00 -i BeautifulMind.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  BeautifulMind-chapter-04.mp3
+ffmpeg -y -ss 2:50:03 -t 0:27:41 -i BeautifulMind.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  BeautifulMind-chapter-05.mp3
+ffmpeg -y -ss 3:17:44 -t 0:11:23 -i BeautifulMind.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  BeautifulMind-chapter-06.mp3
+ffmpeg -y -ss 3:29:07 -t 0:11:40 -i BeautifulMind.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  BeautifulMind-chapter-07.mp3
+ffmpeg -y -ss 3:40:47 -t 0:14:06 -i BeautifulMind.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  BeautifulMind-chapter-08.mp3
+ffmpeg -y -ss 3:54:53 -t 0:10:56 -i BeautifulMind.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  BeautifulMind-chapter-09.mp3
+ffmpeg -y -ss 4:05:49 -t 0:21:16 -i BeautifulMind.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  BeautifulMind-chapter-10.mp3
+ffmpeg -y -ss 4:27:05 -t 0:14:47 -i BeautifulMind.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  BeautifulMind-chapter-11.mp3
+ffmpeg -y -ss 4:41:52 -t 0:35:58 -i BeautifulMind.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  BeautifulMind-chapter-12.mp3
+ffmpeg -y -ss 5:17:50 -t 0:23:54 -i BeautifulMind.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  BeautifulMind-chapter-13.mp3
+ffmpeg -y -ss 5:41:44 -t 0:13:43 -i BeautifulMind.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  BeautifulMind-chapter-14.mp3
+ffmpeg -y -ss 5:55:27 -t 0:16:26 -i BeautifulMind.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  BeautifulMind-chapter-15.mp3
+ffmpeg -y -ss 6:11:53 -t 0:17:15 -i BeautifulMind.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  BeautifulMind-chapter-16.mp3
+ffmpeg -y -ss 6:29:08 -t 0:25:21 -i BeautifulMind.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  BeautifulMind-chapter-17.mp3
+ffmpeg -y -ss 6:54:29 -t 0:13:34 -i BeautifulMind.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  BeautifulMind-chapter-18.mp3
+ffmpeg -y -ss 7:08:03 -t 0:07:28 -i BeautifulMind.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  BeautifulMind-chapter-19.mp3
+ffmpeg -y -ss 7:15:31 -t 0:25:02 -i BeautifulMind.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  BeautifulMind-chapter-20.mp3
+ffmpeg -y -ss 7:40:33 -t 0:04:22 -i BeautifulMind.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  BeautifulMind-chapter-21.mp3
+ffmpeg -y -ss 7:44:55 -t 0:06:09 -i BeautifulMind.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  BeautifulMind-chapter-22.mp3
+ffmpeg -y -ss 7:51:04 -t 0:25:03 -i BeautifulMind.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  BeautifulMind-chapter-23.mp3
+ffmpeg -y -ss 8:16:07 -t 0:09:47 -i BeautifulMind.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  BeautifulMind-chapter-24.mp3
+ffmpeg -y -ss 8:25:54 -t 0:16:41 -i BeautifulMind.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  BeautifulMind-chapter-25.mp3
+ffmpeg -y -ss 8:42:35 -t 0:26:24 -i BeautifulMind.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  BeautifulMind-chapter-26.mp3
+ffmpeg -y -ss 9:08:59 -t 0:10:41 -i BeautifulMind.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  BeautifulMind-chapter-27.mp3
+ffmpeg -y -ss 9:19:40 -t 0:11:26 -i BeautifulMind.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  BeautifulMind-chapter-28.mp3
+ffmpeg -y -ss 9:31:06 -t 0:13:36 -i BeautifulMind.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  BeautifulMind-chapter-29.mp3
+ffmpeg -y -ss 9:44:42 -t 0:20:59 -i BeautifulMind.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  BeautifulMind-chapter-30.mp3
+ffmpeg -y -ss 10:05:41 -t 0:16:14 -i BeautifulMind.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  BeautifulMind-chapter-31.mp3
+ffmpeg -y -ss 10:21:55 -t 0:20:19 -i BeautifulMind.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  BeautifulMind-chapter-32.mp3
+ffmpeg -y -ss 10:42:14 -t 0:10:29 -i BeautifulMind.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  BeautifulMind-chapter-33.mp3
+ffmpeg -y -ss 10:52:43 -t 0:23:45 -i BeautifulMind.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  BeautifulMind-chapter-34.mp3
+ffmpeg -y -ss 11:16:28 -t 0:11:30 -i BeautifulMind.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  BeautifulMind-chapter-35.mp3
+ffmpeg -y -ss 11:27:58 -t 0:26:32 -i BeautifulMind.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  BeautifulMind-chapter-36.mp3
+ffmpeg -y -ss 11:54:30 -t 0:11:58 -i BeautifulMind.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  BeautifulMind-chapter-37.mp3
+ffmpeg -y -ss 12:06:28 -t 0:44:26 -i BeautifulMind.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  BeautifulMind-chapter-38.mp3
+ffmpeg -y -ss 12:50:54 -t 0:13:05 -i BeautifulMind.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  BeautifulMind-chapter-39.mp3
+ffmpeg -y -ss 13:03:59 -t 0:20:18 -i BeautifulMind.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  BeautifulMind-chapter-40.mp3
+ffmpeg -y -ss 13:24:17 -t 0:29:43 -i BeautifulMind.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  BeautifulMind-chapter-41.mp3
+ffmpeg -y -ss 13:54:00 -t 0:27:38 -i BeautifulMind.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  BeautifulMind-chapter-42.mp3
+ffmpeg -y -ss 14:21:38 -t 0:25:57 -i BeautifulMind.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  BeautifulMind-chapter-43.mp3
+ffmpeg -y -ss 14:47:35 -t 0:26:56 -i BeautifulMind.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  BeautifulMind-chapter-44.mp3
+ffmpeg -y -ss 15:14:31 -t 0:21:06 -i BeautifulMind.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  BeautifulMind-chapter-45.mp3
+ffmpeg -y -ss 15:35:37 -t 0:21:15 -i BeautifulMind.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  BeautifulMind-chapter-46.mp3
+ffmpeg -y -ss 15:56:52 -t 0:21:34 -i BeautifulMind.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  BeautifulMind-chapter-47.mp3
+ffmpeg -y -ss 16:18:26 -t 0:56:55 -i BeautifulMind.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  BeautifulMind-chapter-48.mp3
+ffmpeg -y -ss 17:15:21 -t 0:13:03 -i BeautifulMind.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  BeautifulMind-chapter-49.mp3
+ffmpeg -y -ss 17:28:24 -t 0:37:18 -i BeautifulMind.mp3 -acodec mp3 -ab 32k -ac 1 -ar 22050 -map_metadata 0 -id3v2_version 3  BeautifulMind-chapter-50.mp3
+mv BeautifulMind.mp3 /cygdrive/d/
+for i in *mp3; do mp3splt -t 5.0 $i; rm $i; done
+for i in `seq 0 5` ; do mkdir $i; mv BeautifulMind-chapter-$i* $i/; done
+for i in `seq 0 5` ; do cd $i; dotracks.sh 'Science' 'BeautifulMind'; cd ..; done
